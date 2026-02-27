@@ -1,0 +1,154 @@
+{
+  "quiz_title": "Diagnostik test",
+  "quiz_date": "2026-02-19",
+  "sections": [
+    {
+      "section_name": "Muvashshah va mumtoz adabiyot tahlili",
+      "context_text": "(1) Yuz-u xoling g'amidin gar emasdur notavon lola, Nedin bo'lmish hamisha siyra dog'-u bag'ri qon lola?! (2) Xijolatmand xol-u orazing ermas esa, nechun Qo'yub gulshanni dasht-u tog' aro tutmish makon lola?! (3) Bo'ldi qong'a g'amzang tirborondin¹ ul go'yo, Qochib ko'hsor² g'orin anglamish dor ul-omon³ lola. (4) Chamanda xizmat uchun bir oyoqda tik turib shamshod, Tutar yo'lingda nargisdin qo'lida shamdon, lola.\nLUG'AT: tirboron¹ — o'q yomg'iri; ko'hsor² — tog'li joylar, tog'lar; dor ul-omon³ — osoyishta joy, xatarsiz makon.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "1-savol: Baytlarning mazmuni to'g'ri izohlangan javobni belgilang?",
+          "options": [
+            "1-bayt — Lolaning yuz-u xoliga shaydo bo'lgan notavon odamlar unga ozor berib bag'rini dog' qiladilar.",
+            "4-bayt — Chamanda bir oyoqda tik turib shamshodni intizor kutayotgan lola shamdonga qiyoslangan.",
+            "2-bayt — Yor jamoli va qora xoli oldida mulzam bo'lgan lola gulshandan dasht-u tog'larga bosh olib ketgan.",
+            "3-bayt — Lola tog'lardagi g'orlarga qochib borib makon tutgan bo'lsa ham, odamlar unga zulm qilib qon to'kadilar."
+          ],
+          "correct_answer_index": 2
+        },
+        {
+          "id": 2,
+          "question": "2-savol: She'riy parchada lola guliga xos qaysi xususiyat husni ta'lil san'ati asosida tasvirlanmagan?",
+          "options": [
+            "ichida qora dog' borligi",
+            "poyasi ingichka, tik ekanligi",
+            "tog' va dashtlarda o'sishi",
+            "qizil rangda bo'lishi"
+          ],
+          "correct_answer_index": 1
+        },
+        {
+          "id": 3,
+          "question": "3-savol: She'riy parchada quyidagi qaysi o'xshatish mavjud?",
+          "options": [
+            "Yorning adil qomati shamshod daraxtiga o'xshatilgan.",
+            "Yorning qora ko'zlari nargis guliga qiyoslangan.",
+            "Yorning jon oluvchi qarashmalari o'qqa qiyos qilingan.",
+            "Tog' bag'ridagi g'orlar lola guliga tashbeh qilingan."
+          ],
+          "correct_answer_index": 2
+        }
+      ]
+    },
+    {
+      "section_name": "Matn ustida ishlash (Sichqonlar)",
+      "context_title": "SICHQONLAR",
+      "context_text": "Sichqonlar yer yuzida keng tarqalgan kemiruvchilar bo'lib, ularning ko'p juda ko'p turi fanga ma'lum. /1/ Sichqonlar ko'pincha uy hayvonlari, laboratoriya tadqiqotlar obyekti yoki zararli kemiruvchi sifatida uchraydi. Ular qisqa umr ko'ruvchi, tez moslashuvchi va kasallik tarqatuvchi jonzot sifatida tanilgan. Ularning o'rtacha uzunligi 7–10 smni tashkil etadi. /2/ Quloqlari katta va sezgir, ko'zlari esa nisbatan kichik va ko'rish qobiliyati past. Sichqonlar ko'proq hid va teginish orqali muhitni anglaydilar. Ularning oldingi kesuvchi tishlari doimiy o'sadi va zich oziq-ovqatlarni maydalash uchun maxsus moslashgan. Ular tunda faol harakatlanadi. /3/ Sichqonlar juda tez ko'payadigan hayvonlar bo'lib, bir urg'ochisi yilida 6–12 tagacha bolalaydi. Sichqonlar tabiatda ham muhim rol o'ynaydi. Ular oziq-ovqat zanjirining bir qismi bo'lib, ko'plab yirtqichlar, jumladan, qushlar va yirtqich sutemizuvchilar uchun oziq bo'lib xizmat qiladi. /4/ Bundan tashqari, sichqonlar kasalliklarni tarqatish manbasi bo'lishi ham mumkin.",
+      "questions": [
+        {
+          "id": 4,
+          "question": "4. Matn mazmuniga mos to'g'ri ma'lumot berilgan javobni aniqlang.",
+          "options": [
+            "Sichqonlardagi ko'rish qobiliyatining pastligi yirtqichlar hujumiga sabab bo'ladi.",
+            "Sichqonlar xonakilashtirilgan jonzot sifatida ham uchraydi.",
+            "Sichqonlarda hid bilish funksiyasi nisbatan sust rivojlangan.",
+            "Sichqonlar qush va yirtqich hayvonlarning qoldiqlari bilan oziqlanadi."
+          ],
+          "correct_answer_index": 3
+        },
+        {
+          "id": 5,
+          "question": "5. Qaysi raqamda ajratib ko'rsatilgan gap fikr takrori orqali matnning mazmuniy tuzilishida uslubiy xatolikni yuzaga chiqargan?",
+          "options": ["1", "2", "3", "4"],
+          "correct_answer_index": 3
+        },
+        {
+          "id": 6,
+          "question": "6. Matnda aks etgan ma'lumotni aniqlang.",
+          "options": [
+            "Sichqonlar sovuqqa chidamli jonzot turi hisoblanadi.",
+            "Sichqonlardan farmatsevtika sohasida ham foydalaniladi.",
+            "Sichqonlarda eshitish mexanizmi yaxshi rivojlangan.",
+            "Sichqonlar tez harakatlanuvchi hayvon hisoblanadi."
+          ],
+          "correct_answer_index": 1
+        }
+      ]
+    },
+    {
+      "section_name": "Grammatika va Leksikologiya",
+      "questions": [
+        {
+          "id": 7,
+          "question": "7. Berilgan so'zlar va ularning ma'nolari xato izohlangan javobni aniqlang.",
+          "options": [
+            "Pochta – jo'natma",
+            "Taksi – kirakash haydovchi",
+            "Fond – jamg'arma",
+            "Ataka- hujum"
+          ],
+          "correct_answer_index": 1
+        },
+        {
+          "id": 8,
+          "question": "8. Quyida berilgan gapning tahlillari bo'yicha to'g'ri hukmlarni aniqlang.\nSeni shogirdidek yaratgandir Rab,\nHayoting insonga baxshida butkul.\nAziz odam uchun tursang ham yig'lab,\nYovuz bemordan ham uzolmaysan qo'l.",
+          "options": ["2", "3", "1", "4"],
+          "correct_answer_index": 2
+        },
+        {
+          "id": 9,
+          "question": "9. Quyida berilgan gapdagi // belgisi o'rniga qaysi yordamchi so'zni qo'yish mazmunan to'g'ri hisoblanadi?\nBank kartalaridan foydalanish uchun saytdan // \"Click.uz\" ilovasidan ro'yxatdan o'tsangiz ham bo'ladi.",
+          "options": ["Hamda", "Yoki", "Ya'ni", "Keyin"],
+          "correct_answer_index": 1
+        },
+        {
+          "id": 10,
+          "question": "10. Gapdagi inson so'zi qanday sintaktik vazifa bajargan?\nInson tarixning yaratuvchisi, ishtirokchisi va uni dunyoga keltiruvchi eng oliy xilqat ekanligi va rad etib bo'lmas haqiqatligi tan olamiz.",
+          "options": ["Ega", "To'ldiruvchi", "Qaratqich aniqlovchi", "Hol"],
+          "correct_answer_index": 2
+        },
+        {
+          "id": 11,
+          "question": "11. Gapdagi so'zlarning mazmun va grammatik jihatdan bog'lanishi to'g'ri ko'rsatilgan javobni aniqlang.\nImlo me'yorlari mutaxassislar tomonidan til qonuniyatlari, shuningdek, tarixiy an'analarga suyangan holda aniq qoidalar shaklida tayyorlanadi va tegishli davlat organi tomonidan tasdiqlanadi.",
+          "options": [
+            "Imlo me'yorlari, mutaxassislar tomonidan",
+            "Til qonuniyatlari, suyangan holda",
+            "Aniq qoida, qoidalar tasdiqlanadi",
+            "Davlar organlari , suyangan qoidalar"
+          ],
+          "correct_answer_index": 1
+        },
+        {
+          "id": 12,
+          "question": "12. Imloviy jihatdan to'g'ri yozilgan so'zlar qatorini toping.",
+          "options": [
+            "felyeton, fonograma, fisq-fasod",
+            "gard-chang, garchand, gazbalon",
+            "haqqoniy, huzur-halovat, ho'plam",
+            "immigrant, imirsilamoq, iste'zo"
+          ],
+          "correct_answer_index": 2
+        },
+        {
+          "id": 13,
+          "question": "13. Quyidagi berilgan gapda fe'l birliklarining qaysilari ishtirok etgan?\nOnam \"erkam\" deb quchganda tunlar yarim,\nErkim yo'q deb zirqirardi bir joylarim,\nParovozni hansiratgan bug'doylarim,\nOltinlarim, ma'danlarim, ipaklarim,\nOna tilim, kechir meni, ona tilim.",
+          "options": ["6", "5", "4", "3"],
+          "correct_answer_index": 0
+        },
+        {
+          "id": 14,
+          "question": "14. Berilgan gapdagi qaysi hukmlar to'g'ri?\nFarzand ulg'aygan sari dunyoni kengroq ko'ra boshlaydi, ammo ota-onaning ko'ngli har doim bir joyda — bolasining holida, yo'lida va taqdirida qoladi.\nOta-onani qadrlash faqat xizmat qilish emas, balki ularning tashvishini tushunish, sukutidagi mehrni sezish va duo qadriga yetishdir.\nVaqt o'tib hamma narsa o'zgaradi, lekin ota-onaning farzandga bo'lgan muhabbati na qarib qoladi, na kamayadi — u faqat chuqurlashadi.",
+          "options": ["5", "4", "3", "6"],
+          "correct_answer_index": 1
+        },
+        {
+          "id": 15,
+          "question": "15. Quyida qaysi tinish belgi bilan bog'liq xatolik mavjud?\n\"Sen, yaxshisi, iborangni o'zgartir: Kim rasmda kamchilik ko'rsa, iltimos, uni tuzatsin, – deb yozib qo'y\", – debdi ustozi.",
+          "options": ["tire", "vergul", "qo'shtirnoq", "ikki nuqta"],
+          "correct_answer_index": 2
+        }
+      ]
+    }
+  ]
+}
