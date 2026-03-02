@@ -28,6 +28,7 @@ const telegramUser = useTelegramUser();
 
 const loading = ref(true);
 const userData = useState("userData", () => null);
+const isAdmin = ref(false);
 
 // Routes that don't require auth checks
 const publicRoutes = [
@@ -83,6 +84,16 @@ const fetchUserData = async () => {
 
     // Update userData state
     userData.value = data;
+
+    // Check if user is admin
+    try {
+      const adminData = await $fetch(
+        `${config.public.apiBase}/api/admin/check/${telegramUser.value.id}`,
+      );
+      isAdmin.value = adminData.isAdmin === true;
+    } catch (e) {
+      isAdmin.value = false;
+    }
 
     // Perform redirect checks based on user data
     handleRedirects(data);
@@ -184,4 +195,5 @@ watch(
 // Provide user data to child components
 provide("userData", userData);
 provide("refreshUserData", fetchUserData);
+provide("isAdmin", isAdmin);
 </script>

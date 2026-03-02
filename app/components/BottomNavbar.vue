@@ -42,6 +42,48 @@
         >
       </NuxtLink>
 
+      <!-- Broadcast Link (Admin only) -->
+      <NuxtLink
+        v-if="isAdmin"
+        to="/admin/broadcast"
+        class="flex flex-col items-center justify-center gap-1 w-20 transition-colors duration-200 group"
+        :class="
+          route.path === '/admin/broadcast'
+            ? 'text-brand-primary'
+            : 'text-gray-400 hover:text-gray-600'
+        "
+      >
+        <div
+          class="relative flex items-center justify-center w-8 h-8 rounded-full transition-all duration-300"
+          :class="
+            route.path === '/admin/broadcast'
+              ? 'bg-brand-primary/10'
+              : 'group-hover:bg-gray-100'
+          "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M18 8a3 3 0 0 1 0 6" />
+            <path
+              d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5"
+            />
+            <path
+              d="M12 8h0l4.524 -3.77a.9 .9 0 0 1 1.476 .692v12.156a.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8"
+            />
+          </svg>
+        </div>
+        <span class="text-[10px] font-medium transition-colors">Xabar</span>
+      </NuxtLink>
+
       <!-- Profile Link -->
       <NuxtLink
         to="/profile"
@@ -85,4 +127,5 @@
 import {useRoute} from "vue-router";
 
 const route = useRoute();
+const isAdmin = inject("isAdmin", ref(false));
 </script>
