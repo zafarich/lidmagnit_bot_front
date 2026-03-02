@@ -42,7 +42,10 @@ const publicRoutes = [
 // Helper to check if onboarding is completed
 const isOnboardingCompleted = (data) => {
   if (!data?.onboarding) return false;
-  return data.onboarding.isCompleted === true || data.onboarding.currentStep === "completed";
+  return (
+    data.onboarding.isCompleted === true ||
+    data.onboarding.currentStep === "completed"
+  );
 };
 
 // Helper to get current onboarding step
@@ -53,7 +56,10 @@ const getCurrentStep = (data) => {
 // Helper to check if data from server indicates completed onboarding
 const checkServerDataCompleted = (data) => {
   if (!data?.onboarding) return false;
-  return data.onboarding.isCompleted === true || data.onboarding.currentStep === "completed";
+  return (
+    data.onboarding.isCompleted === true ||
+    data.onboarding.currentStep === "completed"
+  );
 };
 
 // Fetch user data from backend
@@ -115,7 +121,7 @@ const fetchUserData = async () => {
 // Handle redirects based on user state
 const handleRedirects = (data) => {
   console.log("[Layout] handleRedirects called with data:", data);
-  
+
   // Check if user needs onboarding
   if (!data.phoneNumber && route.path !== "/phone-input") {
     console.log("[Layout] No phone number, redirecting to phone-input");
@@ -167,7 +173,7 @@ watch(
       loading.value = false;
     }
   },
-  { immediate: true },
+  {immediate: true},
 );
 
 // Watch for route changes
