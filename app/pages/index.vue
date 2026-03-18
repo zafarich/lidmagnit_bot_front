@@ -191,13 +191,19 @@ const features = [
     icon: "💸",
     title: "O'qish pulingizni 100% qaytarib oling!",
     description:
-      "Eng katta o‘sishga erishgan 10 ta odamning pullari to‘liq qaytariladi. Biz bilimga intilgan eng kuchli o'quvchilarni shunday taqdirlaymiz.",
+      "Eng katta o‘sishga erishgan 5 ta odamning pullari to‘liq qaytariladi. Biz bilimga intilgan eng kuchli o'quvchilarni shunday taqdirlaymiz.",
   },
   {
     icon: "👨‍🏫",
     title: "Ikkita kuchli ustozdan jonli darslar",
     description:
       "Nimaga ikkita ustoz? Chunki Alisher Hodiyev va Muxamatova Dilbarning har biri o‘zi eng kuchli bo‘lgan bo‘limlaridan dars beradi. Bu sifatli bilim kafolati!",
+  },
+  {
+    icon: "📚",
+    title: "Alisher Hodiyevdan MS kitobi",
+    description:
+      "Bu kitobni tayyorlash uchun bir qancha o'qituvchilarning mehnati ketgan. Kursimizda o'qiganlar uchun tekin beriladi.",
   },
   {
     icon: "👥",
