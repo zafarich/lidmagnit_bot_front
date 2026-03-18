@@ -63,18 +63,25 @@ export const useQuiz = () => {
   const calculateResults = () => {
     let correct = 0;
     let total = 0;
-    
+    const answerDetails = [];
+
     allQuestions.value.forEach((question) => {
       total++;
       const userAnswer = answers.value[question.id];
-      if (userAnswer !== undefined && userAnswer === question.correct_answer_index) {
-        correct++;
-      }
+      const isCorrect = userAnswer !== undefined && userAnswer === question.correct_answer_index;
+      if (isCorrect) correct++;
+
+      answerDetails.push({
+        questionId: question.id,
+        selected: userAnswer !== undefined ? userAnswer : -1,
+        correct: question.correct_answer_index,
+        isCorrect,
+      });
     });
-    
+
     const percentage = Math.round((correct / total) * 100);
-    
-    return { correct, total, percentage };
+
+    return { correct, total, percentage, answers: answerDetails };
   };
 
   const completeQuiz = () => {

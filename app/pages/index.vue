@@ -143,17 +143,29 @@
         </div>
       </div>
 
-      <!-- Retake Test Button -->
-      <div v-if="hasGrade" class="mt-6">
+      <!-- Test Actions -->
+      <div v-if="hasGrade" class="mt-6 flex gap-3">
+        <NuxtLink
+          to="/test-results"
+          class="flex-1 flex items-center justify-center gap-2 py-3.5 bg-brand-primary text-white font-medium rounded-xl hover:bg-brand-primary/90 transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+          </svg>
+          Natijalarni ko'rish
+        </NuxtLink>
         <NuxtLink
           to="/onboarding/test-info"
-          class="flex items-center justify-center gap-2 w-full py-3.5 bg-white text-brand-primary font-medium rounded-xl border-2 border-brand-primary/20 hover:bg-brand-soft transition-colors"
+          class="flex-1 flex items-center justify-center gap-2 py-3.5 bg-white text-brand-primary font-medium rounded-xl border-2 border-brand-primary/20 hover:bg-brand-soft transition-colors"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="1 4 1 10 7 10"></polyline>
             <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
           </svg>
-          Testni qayta topshirish
+          Qayta topshirish
         </NuxtLink>
       </div>
 

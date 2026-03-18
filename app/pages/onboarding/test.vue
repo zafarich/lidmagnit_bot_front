@@ -500,6 +500,7 @@ const finishQuiz = async () => {
             telegramId: telegramUser.value.id,
             grade: grade.grade,
             percentage: results.percentage,
+            testAnswers: results.answers,
           },
         });
         console.log("Grade saved successfully:", response);
