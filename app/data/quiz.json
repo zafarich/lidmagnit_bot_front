@@ -92,7 +92,7 @@
         },
         {
           "id": 8,
-          "question": "8. Quyida berilgan gapning tahlillari bo'yicha to'g'ri hukmlarni aniqlang.\nSeni shogirdidek yaratgandir Rab,\nHayoting insonga baxshida butkul.\nAziz odam uchun tursang ham yig'lab,\nYovuz bemordan ham uzolmaysan qo'l.",
+          "question": "8. Quyida berilgan gapning tahlillari bo'yicha to'g'ri hukmlarni aniqlang.\nSeni shogirdidek yaratgandir Rab,\nHayoting insonga baxshida butkul.\nAziz odam uchun tursang ham yig'lab,\nYovuz bemordan ham uzolmaysan qo'l.\n1. So'zga qo'shimcha ma'no berish uchun xizmat qiluvchi qo'shimcha shakldagi yordamchi so'z turkumi ishtirok etgan.\n2. So'z yasovchi qo'shimcha bilan shakldoshlik hosil qila oladigan fe'lning sintaktik shakl yasovchi qo'shimchasi ishtirok etgan.\n3. Jamlikni bildiruvchi belgilash olmoshi ishtirok etgan.\n4. Faqat bir so'z turkum doirasida fonetik o'zgarishlar yuz bergan.\n5. Gapda tuzilishiga ko'ra faqat sodda kesimlar ishtirok etgan.",
           "options": ["2", "3", "1", "4"],
           "correct_answer_index": 2
         },
