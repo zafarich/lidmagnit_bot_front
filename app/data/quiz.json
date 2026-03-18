@@ -113,9 +113,9 @@
           "question": "11. Gapdagi so'zlarning mazmun va grammatik jihatdan bog'lanishi to'g'ri ko'rsatilgan javobni aniqlang.\nImlo me'yorlari mutaxassislar tomonidan til qonuniyatlari, shuningdek, tarixiy an'analarga suyangan holda aniq qoidalar shaklida tayyorlanadi va tegishli davlat organi tomonidan tasdiqlanadi.",
           "options": [
             "Imlo me'yorlari, mutaxassislar tomonidan",
-            "Til qonuniyatlari, suyangan holda",
+            "Til qonuniyatlari, suyangan holda tayyorlanadi",
             "Aniq qoida, qoidalar tasdiqlanadi",
-            "Davlar organlari , suyangan qoidalar"
+            "Davlat organlari, suyangan qoidalar"
           ],
           "correct_answer_index": 1
         },
@@ -132,21 +132,26 @@
         },
         {
           "id": 13,
-          "question": "13. Quyidagi berilgan gapda fe'l birliklarining qaysilari ishtirok etgan?\nOnam \"erkam\" deb quchganda tunlar yarim,\nErkim yo'q deb zirqirardi bir joylarim,\nParovozni hansiratgan bug'doylarim,\nOltinlarim, ma'danlarim, ipaklarim,\nOna tilim, kechir meni, ona tilim.",
+          "question": "13. Quyidagi berilgan gapda fe'l birliklarining qaysilari ishtirok etgan?\nOnam \"erkam\" deb quchganda tunlar yarim,\nErkim yo'q deb zirqirardi bir joylarim,\nParovozni hansiratgan bug'doylarim,\nOltinlarim, ma'danlarim, ipaklarim,\nOna tilim, kechir meni, ona tilim.\n1. Yasama fe'l\n2. Ravishdosh shakli\n3. Kelasi zamon fe'li\n4. Orttirma nisbatdagi fe'l\n5. Buyruq-istak mayli\n6. Sifatdosh shakli",
           "options": ["6", "5", "4", "3"],
           "correct_answer_index": 0
         },
         {
           "id": 14,
-          "question": "14. Berilgan gapdagi qaysi hukmlar to'g'ri?\nFarzand ulg'aygan sari dunyoni kengroq ko'ra boshlaydi, ammo ota-onaning ko'ngli har doim bir joyda — bolasining holida, yo'lida va taqdirida qoladi.\nOta-onani qadrlash faqat xizmat qilish emas, balki ularning tashvishini tushunish, sukutidagi mehrni sezish va duo qadriga yetishdir.\nVaqt o'tib hamma narsa o'zgaradi, lekin ota-onaning farzandga bo'lgan muhabbati na qarib qoladi, na kamayadi — u faqat chuqurlashadi.",
+          "question": "14. Berilgan gapdagi qaysi hukmlar to'g'ri?\nFarzand ulg'aygan sari dunyoni kengroq ko'ra boshlaydi, ammo ota-onaning ko'ngli har doim bir joyda — bolasining holida, yo'lida va taqdirida qoladi.\nOta-onani qadrlash faqat xizmat qilish emas, balki ularning tashvishini tushunish, sukutidagi mehrni sezish va duo qadriga yetishdir.\nVaqt o'tib hamma narsa o'zgaradi, lekin ota-onaning farzandga bo'lgan muhabbati na qarib qoladi, na kamayadi — u faqat chuqurlashadi.\n1) Ko'makchi vazifasida kela oladigan mustaqil so'z turkumiga oid so'z ishtirok etgan.\n2) Parchadagi barcha gaplar egali gaplar hisoblanadi.\n3) Ham nisbat, ham fe'lning boshqa vazifa shakli bo'lib kela oladigan omonim qo'shimcha bor.\n4) Asos + so'z yasovchi + so'z yasovchi shaklidagi yasama so'z ishtirok etgan.\n5) Ushbu gaplarda inkor yuklamasi ishtirok etgan.\n6) Ajratilgan bo'lakning uyushgan shaklda kelishini ko'rish mumkin.\n7) Ko'makchi fe'lli so'z qo'shilmasining ko'makchi qismi yasama so'zdan tashkil topgan.",
           "options": ["5", "4", "3", "6"],
           "correct_answer_index": 1
         },
         {
           "id": 15,
-          "question": "15. Quyida qaysi tinish belgi bilan bog'liq xatolik mavjud?\n\"Sen, yaxshisi, iborangni o'zgartir: Kim rasmda kamchilik ko'rsa, iltimos, uni tuzatsin, – deb yozib qo'y\", – debdi ustozi.",
-          "options": ["tire", "vergul", "qo'shtirnoq", "ikki nuqta"],
-          "correct_answer_index": 2
+          "question": "15. Berilgan parchada qatnashgan tinish belgilar haqida to'g'ri fikrni aniqlang.\nYoshliging g'animat, bolam, o'sib, un,\nChiqarma behuda sado hamda un.\nKo'r: quyosh tig'ida va tegirmonda,\nEzilib so'ng aziz bo'ldi bug'doy - un.",
+          "options": [
+            "Barcha vergullar bir xil sababga ko'ra qo'yilgan.",
+            "Tire ajratilgan bo'lak sababli qo'yilgan.",
+            "Ikki nuqta umumlashtiruvchi so'zdan so'ng qo'yilgan.",
+            "Nuqtalarning qo'yilish sababi farqli."
+          ],
+          "correct_answer_index": 1
         }
       ]
     }
