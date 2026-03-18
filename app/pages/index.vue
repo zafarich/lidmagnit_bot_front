@@ -143,6 +143,20 @@
         </div>
       </div>
 
+      <!-- Retake Test Button -->
+      <div v-if="hasGrade" class="mt-6">
+        <NuxtLink
+          to="/onboarding/test-info"
+          class="flex items-center justify-center gap-2 w-full py-3.5 bg-white text-brand-primary font-medium rounded-xl border-2 border-brand-primary/20 hover:bg-brand-soft transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="1 4 1 10 7 10"></polyline>
+            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+          </svg>
+          Testni qayta topshirish
+        </NuxtLink>
+      </div>
+
       <!-- Features Section -->
       <div class="mt-10 mb-6">
         <!-- <h2 class="text-xl font-bold text-gray-900 mb-5 px-1">
